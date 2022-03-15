@@ -1,3 +1,3 @@
 DeepCover.config do
-  exclude_paths ['vendor']
+  paths %w[app lib]
 end
